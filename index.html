@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>ATM </title>
+</head>
+<body>
+  
+      <div class="atm-machine">
+        <h2>ATM Machine</h2>
+        <div class="atm-screen">
+          <p id="message">Welcome! Please enter your PIN.</p>
+        </div>
+        <input type="password" id="pin" class="psw" placeholder="Enter PIN">
+        <button class="pswbtn" onclick="checkPin()">Submit</button>
+        <div class="buttons">
+          <button onclick="deposit()" >Deposit</button>
+          <button onclick="withdraw()">Withdraw</button>
+          <button onclick="checkBalance()">Check Balance</button>
+        </div>
+        <img id="atmImage" src="./image/atm.jpeg" alt="ATM Image" class="atm-image">
+        <img id="depositImage" src="./image/de.jpeg" alt="Deposit Successful" style="display: none; margin-top: 10px;">
+        <img id="withdraw" src="./image/withdrow.jpeg" alt="Deposit Successful" style="display: none; margin-top: 10px;">
+        
+    
+    </div>
+    
+      <script src="script.js"></script>
+    </body>
+    </html>
+    
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
